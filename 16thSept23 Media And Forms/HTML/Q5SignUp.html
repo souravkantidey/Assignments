@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input {
+            margin: 5px 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="">
+        <div class="container">
+            <h1>Sign Up</h1>
+            <label for="fname"><b>First Name</b></label>
+            <input type="text" placeholder="Enter First Name" name="fname" minlength="3" required>
+            <br>
+            <label for="lname"><b>Last Name</b></label>
+            <input type="text" placeholder="Enter Last Name" name="lname" minlength="3" required>
+            <br>
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email" minlength="3" required>
+            <br>
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" minlength="3" required>
+            <br>
+            <label for="psw-cnf"><b>Confirm Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw-cnf" minlength="3" required>
+            <br>
+            <label for="gndr">Choose Your Gender</label>
+            <select name="Gender" id="gndr" required>
+                <option value="">Please choose an option</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Others">Others</option>
+            </select>
+            <br>
+            <label for="age"><b>Date of Birth</b></label>
+            <input type="date" name="age" min="1873-09-19" max="2023-09-19" required>
+            <div>
+                <button type="button" class="cancelbtn">Cancel</button>
+                <button type="submit" class="signupbtn">Sign Up</button>
+            </div>
+            <p> <input type="checkbox">I agree to the <a href="#" style="color:dodgerblue">Terms & Privacy</a> by
+                creating an account.</p>
+
+</html>
