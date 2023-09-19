@@ -1,4 +1,0 @@
-4. Write a short note on Tag and element with an example.
-Ans:
-HTML tags are what define how web browser will format and display the content. Tags help distinguish between an HTML content and a simple content.
-HTML element is defined by a start tag, content, and an end tag. In simpler terms, everything from the start tag to the end tag is called HTML element.

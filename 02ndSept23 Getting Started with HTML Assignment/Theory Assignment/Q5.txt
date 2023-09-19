@@ -1,2 +1,0 @@
-5. What is the DOCTYPE Declaration in HTML?
-Ans: Doctype declaration is an "information" to the browser about what document type to expect. It is also a tag that is used to inform the browser about the version of the HTML used in the document. In technical terms, it's called as the Document Type Declaration (DTD).
