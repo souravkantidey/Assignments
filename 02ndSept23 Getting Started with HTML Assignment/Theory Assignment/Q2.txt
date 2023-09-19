@@ -1,0 +1,3 @@
+2. Explain the purpose of comments in HTML and provide an example of how to use comments in an HTML 
+document.
+Ans: Comments are primarily used to explain the code so that the source code can be edited easily later on. Comments can also be used to take notes.
