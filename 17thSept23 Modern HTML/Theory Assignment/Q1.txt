@@ -1,0 +1,7 @@
+1.  List out the features of HTML5.
+Ans:
+    It is easy to learn and easy to use.
+    It is platform-independent.
+    Images, videos, and audio can be added to a web page.
+    Hypertext can be added to the text.
+    It is a markup language.

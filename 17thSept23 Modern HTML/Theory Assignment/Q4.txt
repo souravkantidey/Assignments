@@ -1,0 +1,5 @@
+4. List any 3 ways which help us in improving the accessibility of HTML.
+Ans:
+    a. Adding proper alt text to images.
+    b. Using ARIA landmarks.
+    c. Adding labels to form fields.
