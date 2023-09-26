@@ -1,0 +1,2 @@
+5. Define Favicon and give an illustrative example.
+Ans: A favicon is a browser icon that represents a brand or website. Most often seen next to a web page's title in browser tabs, favicons can also be found in address bars, bookmark lists, search engine results pages (SERPs), toolbars, browser history, and other places across the web.

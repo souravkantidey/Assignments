@@ -1,0 +1,12 @@
+3. What are the Benefits of Using meta tags?
+Ans: Meta tags, otherwise known as metadata tags, contain information about our website or page. They tell Google bots which crawl through millions, if not billions, of websites each and every day.
+
+There are plenty of benefits of using them. Some of those are listed below:
+ 
+    a. Meta tags provides relevancy: Meta tags show search engines how relevant our page is to the user’s query.
+    b. Saving time without writing too much: As meta tags are in the HTML of our website, they are not meant to be long copy.
+    They need to be short and sweet. We do not want excessive amounts of code on our website. 
+    These are simple and to the point, whether we are writing a meta title or a meta description. These metadata are usually limited to a few words.
+    c. They optimise our site without making things untidy.
+    d. They can be quickly implemented: There is no need for keyword research and strategy with constant updates on our search engine optimisation as there are no keywords for meta tags. 
+    This means we’ll save time from carrying out long hours of keyword research just to know the ‘right’ keywords to add into our meta tags.
