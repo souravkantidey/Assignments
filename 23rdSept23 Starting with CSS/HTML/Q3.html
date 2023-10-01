@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/CSS/Q3.css">
+</head>
+
+<body>
+    <p>3. Develop an HTML form with various input elements. Use CSS to style the form, including setting
+        background colors for input fields. Create a custom color palette for the form elements, and demonstrate
+        how to apply opacity to one of the form sections.</p>
+    <div>
+        <form action="">
+            <div>
+                <!-- Proper use of labels with the elements above will benefit:
+
+            Screen reader users (will read out loud the label, when the user is focused on the element)
+            Users who have difficulty clicking on very small regions (such as checkboxes) - because when a user clicks
+            the text within the <label> element, it toggles the input (this increases the hit area). -->
+
+                <label for="check">This is an example of how checkbox works.</label>
+
+                <!-- The name attribute specifies the name of an <input> element.
+    
+                The name attribute is used to reference elements in a JavaScript, or to reference form data after a form is
+                submitted.
+    
+                Note: Only form elements with a name attribute will have their values passed when submitting a form. -->
+                <input type="checkbox" name="check" id="check">
+            </div>
+
+            <!-- Alternatively, we can nest the <input> directly inside the <label>, in which case the for and id attributes are not needed because the association is implicit: -->
+            <div>
+                <label>
+                    This is an example of how text field is used in forms.
+                    <input type="text" name="txt" />
+                </label>
+            </div>
+            <div>
+                <label for="radio">This is an example of how radio button is used.</label>
+                <input type="radio" name="radio" id="radio">
+            </div>
+            <fieldset>
+                <legend style="text-align: center;">Log In</legend>
+                <div>
+                    <label for="username"></label>
+                    <input class="rounded_corner" type="text" name="username" id="username" placeholder="Username">
+                </div>
+                <div>
+                    <label for="pwd"></label>
+                    <input class="rounded_corner" type="password" name="pwd" id="pwd" placeholder="Password">
+                </div>
+                <div>
+                    <input class="rounded_corner" type="submit" value="Submit">
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>

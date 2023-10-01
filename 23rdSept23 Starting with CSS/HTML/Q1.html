@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- This is the second way of adding CSS. It is called Internal CSS. Is is generally added under head tag with style tag. -->
+    <style>
+        div:nth-of-type(2) {
+            color: blue;
+        }
+        div:nth-of-type(4) {
+            color: blueviolet;
+        }
+    </style>
+
+    <!-- This is the third way of adding CSS. It is called External CSS. An external CSS sheet is linked to the html page with a link tag. -->
+    <link rel="stylesheet" href="/CSS/Q1.css">
+</head>
+
+<body>
+    <p>1. Create a simple page with some div tags and show different ways to add CSS as well as what happens
+        when you target the same elements with inline, internal, and external CSS. Also, utilize comments in the
+        project where required.</p>
+
+    <!-- This is first way of adding CSS which is called Inline CSS. the style is directly linked to the element below. -->
+    <div class="container">
+        <div style="color: red;">This is first div</div>
+        <div>This is second div</div>
+        <div>This is third div</div>
+
+        <!-- Note: CSS priority is Inline>Internal>External.
+        The fourth div is targeted with Inline, Internal, and External CSS. But since Internal CSS takes the highest priority, it'll render the color from Inline CSS. -->
+        <div style="color: brown;">This is fourth div</div>
+        <div>This is fifth div</div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/CSS/Q2.css">
+</head>
+
+<body>
+    <h5>2. Build an HTML page with multiple paragraphs, each assigned a unique class name. Write CSS rules using
+        class selectors to apply distinct styling to each paragraph. Follow the BEM naming convention and
+        explain how you've named the classes.</h5>
+
+    <!-- "container" is the block here and "first_para" is the element. The double underscore (__) is used between them to follow  BEM naming convention.
+    Two class names (e.g. "para", "first_para") have been used below. One for targeting the common element type and another to target each one of them separately. -->
+    <div class="container">
+        <p class="para container__first_para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta ipsum
+            dolorem illum
+            recusandae dolores nulla ut,
+            quae, deserunt atque quis incidunt hic inventore provident quo quia repellat unde amet voluptas voluptate
+            culpa
+            praesentium sequi?</p>
+        <p class="para container__second_para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta ipsum
+            dolorem illum
+            recusandae dolores nulla ut,
+            quae, deserunt atque quis incidunt hic inventore provident quo quia repellat unde amet voluptas voluptate
+            culpa
+            praesentium sequi?</p>
+        <p class="para container__third_para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta ipsum
+            dolorem illum
+            recusandae dolores nulla ut,
+            quae, deserunt atque quis incidunt hic inventore provident quo quia repellat unde amet voluptas voluptate
+            culpa
+            praesentium sequi?</p>
+        <p class="para container__fourth_para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta ipsum
+            dolorem illum
+            recusandae dolores nulla ut,
+            quae, deserunt atque quis incidunt hic inventore provident quo quia repellat unde amet voluptas voluptate
+            culpa
+            praesentium sequi?</p>
+        <p class="para container__fifth_para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta ipsum
+            dolorem illum
+            recusandae dolores nulla ut,
+            quae, deserunt atque quis incidunt hic inventore provident quo quia repellat unde amet voluptas voluptate
+            culpa
+            praesentium sequi?</p>
+    </div>
+
+    <!-- BEM (block__element-modifier) naming standard is generally followed while working on a large-scale web development
+    project since it’s essential to have a consistent and organized approach for styling.
+
+    Blocks: A block represents the highest-level abstraction of the component. It is represented by a single word and
+    represents a standalone entity that is meaningful on its own. For example, a button, a form, a header, etc.
+
+    The block follows the naming convention in CSS as:
+
+    .block {
+    ...
+    }
+
+    Elements: An element represents a part of the block. It is represented by the block name followed by two underscores
+    (__) and the element name. For example, if the block name is ‘button’, the element name can be ‘label’ or ‘icon’.
+
+    Using the BEM convention, we can add a class to an element as:
+
+.block__element {
+    ...
+}
+
+    Modifiers: A modifier represents a variation of the block or element. It is represented by the block or element name
+    followed by a single hyphen (-) and the modifier name. A modifier can be used to change the appearance or behavior
+    of a block or element. For example, a button can have different variations like ‘primary’, ‘secondary’, ‘disabled’
+    etc.
+
+    The Modifiers follows the naming convention in CSS as:
+
+.block__element--modifier {
+    ...
+}
+OR
+.block--modifier {
+    ...
+}
+
+    Note: BEM names intentionally use double underscores and double hyphens instead of single to separate
+    Block-Element-Modifier. The reason is so that single hyphens can be used as word separators. -->
+</body>
+
+</html>

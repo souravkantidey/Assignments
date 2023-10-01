@@ -1,0 +1,30 @@
+.container,
+        .para {
+            border: 1px solid;
+            text-align: center;
+        }
+
+        .para {
+            margin: 12px;
+            padding: 8px;
+        }
+
+        .container__first_para {
+            background-color: #c1452d;
+        }
+
+        .container__second_para {
+            background-color: #cbad42;
+        }
+
+        .container__third_para {
+            background-color: #4ccb43;
+        }
+
+        .container__fourth_para {
+            background-color: #4ae4e2;
+        }
+
+        .container__fifth_para {
+            background-color: #6752de;
+        }

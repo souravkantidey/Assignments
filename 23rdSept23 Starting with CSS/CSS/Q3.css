@@ -1,0 +1,35 @@
+body {
+    background-color: #b6b8e1;
+}
+
+input[type="checkbox"] {
+    vertical-align: middle;
+}
+
+input[type="text"],
+input[type="password"] {
+    background-color: #6681ff;
+}
+
+/* ::placeholder is a pseudo element so it requires double colons. :placeholder-shown is a pseudo class and would require a single colon. ::placeholder represents the placeholder text. So if you need to style the placeholder text itself then you should use that one. */
+::placeholder {
+    color: rgb(0, 0, 0);
+
+    /* The placeholder value is generally greyed out. But we have made it opacity = 1 which is the highest value there. The value ranges from 0 to 1. */
+    opacity: 1
+}
+
+div {
+    padding: 3px;
+}
+
+fieldset {
+    width: 500px;
+    margin: 0px auto;
+}
+
+fieldset,
+.rounded_corner {
+    border-radius: 4px;
+    padding: 10px;
+}
