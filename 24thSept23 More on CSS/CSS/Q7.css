@@ -1,0 +1,26 @@
+* {
+    margin: o;
+    padding: 0;
+}
+
+div {
+    width: 200px;
+    margin: auto;
+    padding: 20px 15px 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: bisque;
+    border-radius: 10px;
+    opacity: 0.5;
+}
+div:hover {
+    opacity: 1;
+    }
+img {
+    border-radius: 10px;
+}
+
+p {
+    margin: 5px;
+}

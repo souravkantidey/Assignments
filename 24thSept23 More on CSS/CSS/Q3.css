@@ -1,0 +1,19 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    background-color: rgba(116, 177, 239);
+}
+
+li {
+    display: inline;
+    padding: 15px;
+    margin: 15px;
+}
+
+a {
+    padding: 5px;
+}
+a:hover {
+    color: brown;
+}

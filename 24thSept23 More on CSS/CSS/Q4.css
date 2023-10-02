@@ -1,0 +1,4 @@
+/* Since a rectangular image doesn't render properly while making it circular using border radius property, It's always recommended to choose a square image.  */
+img {
+    border-radius: 50%;
+}
