@@ -1,0 +1,8 @@
+Operators in JavaScript are categorized based on their functionality into the following groups:
+
+
+1. Arithmetic Operators: These operators perform mathematical operations on operands. Operands can be
+numbers or variables.
+2. Assignment Operators:WThese operators assign values to variables.
+3. Comparison Operators: These operators compare two values and return a Boolean value (true or false).
+4. Logical Operators: These operators perform logical operations on Boolean values.
