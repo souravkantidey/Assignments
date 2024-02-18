@@ -1,9 +1,0 @@
-Operators in JavaScript are symbols that perform operations on operands. Operands can be
-variables, values, or expressions. Operators are essential in programming because they allow us to manipulate
-data and perform calculations.
-
-They are essential in proramming because they can be used to
-a.  perform Arithmetic operation.
-b.  Assign operator.
-c.  Compare Operator.
-d.  Perform logical operations.
